@@ -27,7 +27,7 @@ class ValidaCNPJ:
             if self.digitos not in str(cnpj):
                 print("Erro: Tipo de CNPJ inválido")
             else:
-                print("Sucess: CNPJ válido")
+                print("Success: CNPJ válido")
             
 usuario = ValidaCNPJ()
 usuario.Get_CNPJ()
